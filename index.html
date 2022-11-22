@@ -5,35 +5,60 @@
     <title>Page with games</title>
 </head>
 <style>
-    .div-center {
+    h1 {
         margin: auto;
-        width: min-content;
+        padding-top: 2%;
     }
+    h2 {
+        margin: auto;
+        padding-top: 2%;
+    }
+    p {
+        margin: auto;
+        padding: 1%;
+    }
+
     .text-center {
         text-align: center;
     }
+
+    /*.game-element {*/
+    /*    margin: auto;*/
+    /*    color: white;*/
+    /*    font-family: Lato, serif;*/
+    /*    background-color: #222222;*/
+    /*}*/
+
+    .game-container {
+        width: min-content;
+        margin: auto;
+        background-color: #363636;
+        padding: 1%;
+    }
 </style>
 <body>
-<div>
-    <h1>hello.</h1>
-    <h2>
-        links:
-    </h2>
-    <p>
-        - <a href="https://github.com/mikkelens">Github</a>
-    </p>
-    <p>
-        - <a href="https://mikkelen.itch.io">Itch.io</a>
-    </p>
-</div>
-<div class="div-center">
-    <h2 class="text-center">
-        games I've published on itch:
-    </h2>
-    <p class="text-center">(lower your expectations)</p>
-    <iframe src="https://itch.io/embed/1795923" width="552" height="167" frameborder="0">
-        <a href="https://mikkelen.itch.io/fighting-game">Fighting Game by Mikkelen</a>
-    </iframe>
-</div>
+    <div>
+        <h1>hello.</h1>
+        <h2>
+            links:
+        </h2>
+        <p>
+            - <a href="https://github.com/mikkelens">Github</a><br>
+            - <a href="https://mikkelen.itch.io">Itch.io</a>
+        </p>
+    </div>
+    <div>
+        <h2 class="text-center">
+            games I've published on itch:
+        </h2>
+        <p class="text-center">
+            (lower your expectations)
+        </p>
+        <div class="game-container">
+            <iframe src="https://itch.io/embed/1795923?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="550" height="165" frameborder="0"><a href="https://mikkelen.itch.io/fighting-game">Fighting Game by Mikkel</a></iframe>
+            <iframe src="https://itch.io/embed/1649082?border_width=0&amp;dark=true" width="550" height="165" frameborder="0"><a href="https://mikkelen.itch.io/miniator">Miniator by Mikkel, Therium</a></iframe>
+            <iframe src="https://itch.io/embed/1725860?border_width=0&amp;dark=false" width="550" height="165" frameborder="0"><a href="https://mikkelen.itch.io/ddg2022">Lights Out - DDG2022 by Mikkel</a></iframe>
+        </div>
+    </div>
 </body>
 </html>
